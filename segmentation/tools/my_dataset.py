@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : dataset.py
-# @author     : yts3221@126.com
-# @date       : 2019-08-21 10:08:00
-# @brief      : 各数据集的Dataset定义
-"""
+
 import numpy as np
 import torch
 import os
