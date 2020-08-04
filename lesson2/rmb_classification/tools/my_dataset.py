@@ -7,6 +7,7 @@ from torch.utils.data import Dataset
 
 random.seed(1)
 rmb_label = {"1": 0, "100": 1}
+ants_label={'ants':0, 'bees':1}
 
 class RMBDataset(Dataset):
     def __init__(self, data_dir, transform=None):
@@ -55,3 +56,49 @@ class RMBDataset(Dataset):
                     # 保存在 data_info 变量中
                     data_info.append((path_img, int(label)))
         return data_info
+
+class AntsDataset(Dataset):
+    def __init__(self,data_dir, transform=None):
+        self.label_name={'ants':0, 'bees':1}
+        self.data_info=self.get_item_info(data_dir)
+        self.transform=transform
+
+    def  __getitem__(self, index):
+        path,label=self.data_info[index]
+        img = Image.open(path).convert('RGB')
+        if self.transform is not None:
+            img=self.transform(img)
+        return img, label
+
+    @staticmethod
+    def get_item_info(data_dir):
+        data_info=list()
+        for root,dirs,_ in os.walk(data_dir):
+            for sub_dir in dirs:
+                img_names=os.listdir(os.path.join(root,sub_dir))
+                img_names=list(filter(lambda x:x.endswith('.jpg'), img_names))
+
+                for i in range(len(img_names)):
+                    path_img=os.path.join(root,sub_dir,img_names[i])
+                    label=ants_label[sub_dir]
+                    data_info.append((path_img, int(label)))
+
+        if len(data_info)==0:
+            raise Exception('\ndata_dir:{} is a empty dir! please check your image paths!'.format(data_dir))
+
+        return data_info
+
+    def __len__(self):
+        return len(self.data_info)
+
+
+
+
+
+
+
+
+
+
+
+
