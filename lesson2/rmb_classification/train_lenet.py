@@ -9,9 +9,10 @@ from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 import torch.optim as optim
 from matplotlib import pyplot as plt
-from model.lenet import LeNet
+from model.lenet import LeNet, LeNetSequetial
 from tools.my_dataset import RMBDataset
 from enviroments import rmb_split_dir
+from tensorboardX import  SummaryWriter
 
 def set_seed(seed=1):
     random.seed(seed)
@@ -64,7 +65,7 @@ valid_loader = DataLoader(dataset=valid_data, batch_size=BATCH_SIZE)
 
 # ============================ step 2/5 模型 ============================
 
-net = LeNet(classes=2)
+net = LeNetSequetial(classes=2)
 net.initialize_weights()
 
 # ============================ step 3/5 损失函数 ============================
@@ -78,6 +79,12 @@ scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1) 
 train_curve = list()
 valid_curve = list()
 
+iter_count = 0
+
+# 构建 SummaryWriter
+writer = SummaryWriter(comment='test_your_comment', filename_suffix="_test_your_filename_suffix")
+
+
 for epoch in range(MAX_EPOCH):
 
     loss_mean = 0.
@@ -87,7 +94,7 @@ for epoch in range(MAX_EPOCH):
     net.train()
     # 遍历 train_loader 取数据
     for i, data in enumerate(train_loader):
-
+        iter_count += 1
         # forward
         inputs, labels = data
         outputs = net(inputs)
@@ -114,6 +121,15 @@ for epoch in range(MAX_EPOCH):
                 epoch, MAX_EPOCH, i+1, len(train_loader), loss_mean, correct / total))
             loss_mean = 0.
 
+        # 记录数据，保存于event file
+        writer.add_scalars("Loss", {"Train": loss.item()}, iter_count)
+        writer.add_scalars("Accuracy", {"Train": correct / total}, iter_count)
+
+    # 每个epoch，记录梯度，权值
+    for name, param in net.named_parameters():
+        writer.add_histogram(name + '_grad', param.grad, epoch)
+        writer.add_histogram(name + '_data', param, epoch)
+
     scheduler.step()  # 每个 epoch 更新学习率
     # 每个 epoch 计算验证集得准确率和loss
     # validate the model
@@ -139,6 +155,9 @@ for epoch in range(MAX_EPOCH):
             print("Valid:\t Epoch[{:0>3}/{:0>3}] Iteration[{:0>3}/{:0>3}] Loss: {:.4f} Acc:{:.2%}".format(
                 epoch, MAX_EPOCH, j+1, len(valid_loader), loss_val, correct_val / total_val))
 
+            # 记录数据，保存于event file
+            writer.add_scalars("Loss", {"Valid": np.mean(valid_curve)}, iter_count)
+            writer.add_scalars("Accuracy", {"Valid": correct / total}, iter_count)
 
 train_x = range(len(train_curve))
 train_y = train_curve
