@@ -4,7 +4,11 @@
 
 学习笔记的结构遵循课程的顺序，共分为 8 周，循序渐进。
 
-配套代码：[https://github.com/xiechuanyu/PyTorch_Practice](https://github.com/xiechuanyu/PyTorch_Practice)<!--more-->
+- 配套代码：[https://github.com/xiechuanyu/PyTorch_Practice](https://github.com/xiechuanyu/PyTorch_Practice)<!--more-->
+
+- 数据下载地址：
+    链接：https://pan.baidu.com/s/1f9wQM7gvkMVx2x5z6xC9KQ 
+    提取码：w7xt
 
 PyTorch 学习笔记目录大纲如下：
 
