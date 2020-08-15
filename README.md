@@ -55,3 +55,10 @@ PyTorch 学习笔记目录大纲如下：
 
 <br>
 完整笔记请查看 [PyTorch 学习笔记](https://blog.zhangxiann.com/202006012126/)
+
+<br>
+
+欢迎扫码关注我的公众号**张贤同学**。
+
+<div align="center"><img src="https://image.zhangxiann.com/QRcode_8cm.jpg"/></div><br>
+
