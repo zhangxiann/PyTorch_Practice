@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : dropout_layer.py
-@date       : 2019-10-31
-@brief      : dropout 使用实验
+dropout 使用实验
 """
 import torch
 import torch.nn as nn

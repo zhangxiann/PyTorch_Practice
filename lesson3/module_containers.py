@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : module_containers.py
-# @brief      : 模型容器——Sequential, ModuleList, ModuleDict
+
+模型容器——Sequential, ModuleList, ModuleDict
 """
 import torch
 import torchvision

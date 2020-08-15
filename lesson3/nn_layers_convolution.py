@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : nn_layers_convolution.py
-# @brief      : 学习卷积层
-"""
+
 import os
 import torch.nn as nn
 from PIL import Image

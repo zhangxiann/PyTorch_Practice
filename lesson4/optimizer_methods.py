@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : optimizer_methods.py
-# @date       : 2019-10-14 10:08:00
-# @brief      : optimizer's methods
-"""
+
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 import torch

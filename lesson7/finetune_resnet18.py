@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : finetune_resnet18.py
-# @date       : 2019-11-05
-# @brief      : 模型finetune方法
+模型finetune方法
 """
 import os
 import numpy as np

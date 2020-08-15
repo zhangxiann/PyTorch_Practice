@@ -1,9 +1,5 @@
 # -*- coding:utf-8 -*-
-"""
-@file name  : hook_methods.py
-@date       : 2019-10-28
-@brief      : pytorch的hook函数
-"""
+
 import torch
 import torch.nn as nn
 from common_tools import set_seed

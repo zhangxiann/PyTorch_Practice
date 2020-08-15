@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : model_load.py
-# @date       : 2019-11-04
-# @brief      : 模型的加载
+模型的加载
 """
 import torch
 import numpy as np

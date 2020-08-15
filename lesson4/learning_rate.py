@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*-
-"""
-@file name  : learning_rate.py
-@date       : 2019-10-16
-@brief      : 梯度下降的学习率演示
-"""
 import torch
 import numpy as np
 import matplotlib.pyplot as plt

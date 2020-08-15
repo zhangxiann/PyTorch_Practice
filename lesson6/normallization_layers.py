@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : bn_and_initialize.py
-# @date       : 2019-11-03
-# @brief      : pytorch中常见的 normalization layers
+pytorch中常见的 normalization layers
 """
 import torch
 import torch.nn as nn

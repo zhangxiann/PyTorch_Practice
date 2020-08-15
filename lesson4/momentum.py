@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*-
-"""
-@file name  : momentum.py
-@date       : 2019-10-17
-@brief      : 梯度下降的动量 momentum
-"""
 import torch
 import numpy as np
 import torch.optim as optim

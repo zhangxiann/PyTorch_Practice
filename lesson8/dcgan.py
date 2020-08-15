@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : dcgan.py
-# @date       : 2019-12-04
-# @brief      : deep convolutional generative adversarial networks
+deep convolutional generative adversarial networks
 """
 
 

@@ -1,22 +1,19 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : loss_function_2.py
-# @date       : 2019-10-10 10:08:00
-# @brief      :
-                5. nn.L1Loss
-                6. nn.MSELoss
-                7. nn.SmoothL1Loss
-                8. nn.PoissonNLLLoss
-                9. nn.KLDivLoss
-                10. nn.MarginRankingLoss
-                11. nn.MultiLabelMarginLoss
-                12. nn.SoftMarginLoss
-                13. nn.MultiLabelSoftMarginLoss
-                14. nn.MultiMarginLoss
-                15. nn.TripletMarginLoss
-                16. nn.HingeEmbeddingLoss
-                17. nn.CosineEmbeddingLoss
-                18. nn.CTCLoss
+5. nn.L1Loss
+6. nn.MSELoss
+7. nn.SmoothL1Loss
+8. nn.PoissonNLLLoss
+9. nn.KLDivLoss
+10. nn.MarginRankingLoss
+11. nn.MultiLabelMarginLoss
+12. nn.SoftMarginLoss
+13. nn.MultiLabelSoftMarginLoss
+14. nn.MultiMarginLoss
+15. nn.TripletMarginLoss
+16. nn.HingeEmbeddingLoss
+17. nn.CosineEmbeddingLoss
+18. nn.CTCLoss
 """
 
 import torch

@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : resnet_inference.py
-# @date       : 2019-11-16
-# @brief      : inference demo
-"""
 
 import os
 import time

@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : detection_demo.py
-# @date       : 2019-11-30
-# @brief      : Faster rcnn实现目标检测
+faster rcnn实现目标检测
 """
 
 import os

@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : bn_application.py
-@date       : 2019-11-01
-@brief      : nn.BatchNorm使用
+nn.BatchNorm使用
 """
 import os
 import numpy as np

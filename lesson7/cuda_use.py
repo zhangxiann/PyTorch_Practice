@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : cuda_methods.py
-# @date       : 2019-11-11
-# @brief      : 数据迁移至cuda的方法
+数据迁移至cuda的方法
 """
 import torch
 import torch.nn as nn

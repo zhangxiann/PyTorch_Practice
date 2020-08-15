@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : loss_acc_weights_grad.py
-@date       : 2019-10-24
-@brief      : 监控loss, accuracy, weights, gradients
+监控loss, accuracy, weights, gradients
 """
 import os
 import numpy as np

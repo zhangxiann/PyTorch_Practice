@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : nn_layers_others.py
-# @date       : 2019-09-25 10:08:00
-# @brief      : 其它网络层
-"""
+
 import os
 import torch
 import torch.nn as nn

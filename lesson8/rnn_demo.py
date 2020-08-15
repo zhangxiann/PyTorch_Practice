@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : rnn_demo.py
-# @date       : 2019-12-09
-# @brief      : rnn人名分类
+RNN 实现人名分类
 """
 from io import open
 import glob

@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : grad_vanish_explod.py
-# @date       : 2019-09-30 10:08:00
-# @brief      : 梯度消失与爆炸实验
+
+梯度消失与爆炸
 """
 import torch
 import torch.nn as nn

@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : save_checkpoint.py
-# @author     :  TingsongYu https://github.com/TingsongYu
-# @date       : 2019-11-04
-# @brief      : 模拟训练意外停止
+模拟训练意外停止，自动恢复模型
 """
 import os
 import random

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-
+"""
+使用多 GPU
+"""
 import os
 import numpy as np
 import torch

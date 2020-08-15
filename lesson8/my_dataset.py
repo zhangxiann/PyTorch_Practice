@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : dataset.py
-# @date       : 2019-08-21 10:08:00
-# @brief      : 各数据集的Dataset定义
+各数据集的Dataset定义
 """
 import numpy as np
 import torch

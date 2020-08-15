@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : common_tools.py
-# @author     : tingsongyu
-# @date       : 2019-09-16 10:08:00
-# @brief      : 通用函数
+
+通用函数
 """
 
 

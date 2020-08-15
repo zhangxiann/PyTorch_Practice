@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : fasterrcnn_train.py
-# @date       : 2019-11-30
-# @brief      : 训练faster rcnn
+训练faster rcnn
 """
 
 import os

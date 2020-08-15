@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*-
-"""
-@file name  : tensorboard_methods_2.py
-@date       : 2019-10-25
-@brief      : tensorboard方法使用2
-"""
 import os
 import torch
 import time

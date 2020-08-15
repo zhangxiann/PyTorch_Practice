@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : model_save.py
-# @date       : 2019-11-04
-# @brief      : 模型的保存
+模型的保存
 """
 import torch
 import numpy as np

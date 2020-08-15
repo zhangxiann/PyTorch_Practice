@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : L2_regularization.py
-@date       : 2019-10-30
-@brief      : weight decay使用实验
+weight decay使用实验
 """
 import torch
 import torch.nn as nn

@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : hook_fmap_vis.py
-@date       : 2019-10-28
-@brief      : 采用hook函数可视化特征图
+采用hook函数可视化特征图
 """
 import torch.nn as nn
 import numpy as np

@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : bn_and_initialize.py
-# @date       : 2019-11-01
-# @brief      : bn与权值初始化
-"""
 import torch
 import numpy as np
 import torch.nn as nn

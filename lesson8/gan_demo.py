@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : gan_train.py
-# @date       : 2019-12-05
-# @brief      : gan demo
-"""
 import os
 import torch.nn as nn
 import torch.optim as optim

@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : loss_function_1.py
-# @date       : 2019-10-07 10:08:00
-# @brief      : 1. nn.CrossEntropyLoss
-                2. nn.NLLLoss
-                3. BCELoss
-                4. BCEWithLogitsLoss
+1. nn.CrossEntropyLoss
+2. nn.NLLLoss
+3. BCELoss
+4. BCEWithLogitsLoss
 """
 
 import torch

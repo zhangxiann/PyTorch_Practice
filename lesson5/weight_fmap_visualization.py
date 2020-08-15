@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : weight_fmap_visualization.py
-@date       : 2019-10-25
-@brief      : 卷积核和特征图的可视化
+积核和特征图的可视化
 """
 import torch.nn as nn
 from PIL import Image

@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*-
-"""
-@file name  : tensorboard_methods.py
-@date       : 2019-10-24
-@brief      : tensorboard方法使用（一）scalars and histogram
-"""
 
 from common_tools import set_seed
 from tensorboardX import SummaryWriter

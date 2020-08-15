@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# @file name  : save_checkpoint.py
-# @date       : 2019-11-04
-# @brief      : 模拟训练意外停止
+模拟训练意外停止，自动保存模型
 """
 import os
 import random
