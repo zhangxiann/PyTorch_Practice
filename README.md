@@ -9,9 +9,10 @@
 
 <p align='center'>
 <a href="https://www.github.com/labuladong" target="_blank"><img src="https://img.shields.io/badge/作者-@zhangxiann-000000.svg?style=flat-square&logo=GitHub"></a>
-<a href="https://www.zhihu.com/people/zhangxian/posts" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@labuladong-000000.svg?style=flat-square&logo=Zhihu"></a>
-<a href="https://image.zhangxiann.com/QRcode_8cm.jpg" target="_blank"><img src="https://img.shields.io/badge/公众号-@labuladong-000000.svg?style=flat-square&logo=WeChat"></a>
+<a href="https://www.zhihu.com/people/zhangxian/posts" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@张贤同学-000000.svg?style=flat-square&logo=Zhihu"></a>
+<a href="https://image.zhangxiann.com/QRcode_8cm.jpg" target="_blank"><img src="https://img.shields.io/badge/公众号-@张贤同学-000000.svg?style=flat-square&logo=WeChat"></a>
 </p>
+
 
 这个仓库是我学习 PyTorch 过程中所记录的学习笔记汇总，包括 **25** 篇文章，是我学习 **PyTorch** 期间所记录的内容，点击查看在线电子书：[https://pytorch.zhangxiann.com/](https://pytorch.zhangxiann.com/)。
 
