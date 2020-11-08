@@ -3,7 +3,7 @@
 
 # PyTorch 学习笔记
 
-这个仓库是我学习 PyTorch 过程中所记录的学习笔记汇总，包括 **25** 篇文章，是我学习[深度之眼](https://ai.deepshare.net/) **PyTorch** 框架版课程期间所记录的内容。课程地址：[https://ai.deepshare.net/detail/p_5df0ad9a09d37_qYqVmt85/6](https://ai.deepshare.net/detail/p_5df0ad9a09d37_qYqVmt85/6)。
+这个仓库是我学习 PyTorch 过程中所记录的学习笔记汇总，包括 **25** 篇文章，是我学习 **PyTorch** 期间所记录的内容，点击查看在线电子书：[https://pytorch.zhangxiann.com/](https://pytorch.zhangxiann.com/)。
 
 学习笔记的结构遵循课程的顺序，共分为 8 周，循序渐进，**力求通俗易懂**。
 
