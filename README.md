@@ -3,12 +3,12 @@
 # PyTorch 学习笔记
 
 <p align='center'>
-<a href="https://github.com/labuladong/fucking-algorithm" target="_blank"><img alt="GitHub" src="https://img.shields.io/github/stars/zhangxiann/PyTorch_Practice?label=Stars&style=flat-square&logo=GitHub"></a>
-<a href="https://labuladong.gitbook.io/algo" target="_blank"><img alt="Website" src="https://img.shields.io/website?label=%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%AD%90%E4%B9%A6&style=flat-square&down_color=blue&down_message=%E7%82%B9%E8%BF%99%E9%87%8C&up_color=blue&up_message=%E7%82%B9%E8%BF%99%E9%87%8C&url=https://pytorch.zhangxiann.com/&logo=Gitea"></a>
+<a href="https://github.com/zhangxiann/PyTorch_Practice" target="_blank"><img alt="GitHub" src="https://img.shields.io/github/stars/zhangxiann/PyTorch_Practice?label=Stars&style=flat-square&logo=GitHub"></a>
+<a href="https://pytorch.zhangxiann.com/" target="_blank"><img alt="Website" src="https://img.shields.io/website?label=%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%AD%90%E4%B9%A6&style=flat-square&down_color=blue&down_message=%E7%82%B9%E8%BF%99%E9%87%8C&up_color=blue&up_message=%E7%82%B9%E8%BF%99%E9%87%8C&url=https://pytorch.zhangxiann.com/&logo=Gitea"></a>
 </p>
 
 <p align='center'>
-<a href="https://www.github.com/labuladong" target="_blank"><img src="https://img.shields.io/badge/作者-@zhangxiann-000000.svg?style=flat-square&logo=GitHub"></a>
+<a href="https://www.github.com/zhangxiann" target="_blank"><img src="https://img.shields.io/badge/作者-@zhangxiann-000000.svg?style=flat-square&logo=GitHub"></a>
 <a href="https://www.zhihu.com/people/zhangxian/posts" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@张贤同学-000000.svg?style=flat-square&logo=Zhihu"></a>
 <a href="https://image.zhangxiann.com/QRcode_8cm.jpg" target="_blank"><img src="https://img.shields.io/badge/公众号-@张贤同学-000000.svg?style=flat-square&logo=WeChat"></a>
 </p>
