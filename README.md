@@ -9,7 +9,7 @@
 
 <p align='center'>
 <a href="https://www.github.com/zhangxiann" target="_blank"><img src="https://img.shields.io/badge/作者-@zhangxiann-000000.svg?style=flat-square&logo=GitHub"></a>
-<a href="https://www.zhihu.com/people/zhangxian/posts" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@张贤同学-000000.svg?style=flat-square&logo=Zhihu"></a>
+<a href="https://www.zhihu.com/people/zhangxiann/posts" target="_blank"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@张贤同学-000000.svg?style=flat-square&logo=Zhihu"></a>
 <a href="https://image.zhangxiann.com/QRcode_8cm.jpg" target="_blank"><img src="https://img.shields.io/badge/公众号-@张贤同学-000000.svg?style=flat-square&logo=WeChat"></a>
 </p>
 
